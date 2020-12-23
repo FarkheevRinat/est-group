@@ -1,0 +1,13 @@
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.nav__link {
+    padding: 5px 10px;
+    letter-spacing: .005em;
+}

@@ -1,0 +1,12 @@
+:root {
+    --font-primary: 'Avenir Next Cyr', sans-serif;
+
+    --color-text: #3B3B3B;
+    --color-text-light: #FDFDFD;
+    --color-light: #FFFFFF;
+    --color-dark: #000000;
+
+    --color-accent: #00887A;
+    --color-additional: #004A42;
+    --bg-color-button: linear-gradient(90deg, var(--color-accent) 0%, var(--color-additional) 100%)
+}

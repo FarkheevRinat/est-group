@@ -1,0 +1,28 @@
+.button {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: .005em;
+    color: var(--color-light);
+    background: var(--bg-color-button);
+    border-radius: 40px 0px 40px 40px;
+    box-shadow: 0px 20px 50px rgba(0, 80, 71, 0.2);
+    filter: drop-shadow(0px 20px 50px rgba(0, 80, 71, 0.2));
+    padding: 24px 85px;
+}
+
+.button__icon {
+    height: 19px;
+    width: 17px;
+    fill: var(--color-light);
+    fill-opacity: .6;
+    margin-left: 10px;
+}
+
+.arrow-button {
+    display: flex;
+    width: 36px;
+    height: 12px;
+    fill: var(--color-accent);
+}

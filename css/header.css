@@ -1,0 +1,27 @@
+.header {
+    padding-top: 87px;
+    padding-bottom: 25px;
+    margin-bottom: 120px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--main-page:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1580px;
+    background-image: 
+        linear-gradient(360deg, #FDFDFD 7.53%, rgba(255, 255, 255, 0) 59.49%), 
+        url('../assets/img/promo-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+}

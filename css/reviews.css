@@ -1,0 +1,112 @@
+.reviews {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    background-color: var(--color-additional);
+    z-index: 0;
+    margin-bottom: 62px;
+}
+
+.reviews:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 30.4%;
+    background:
+        linear-gradient(0deg, rgba(0, 74, 66, 0.6), rgba(0, 74, 66, 0.6)), 
+        linear-gradient(270deg, #004A42 0%, rgba(0, 74, 66, 0) 80.25%), 
+        url('../assets/img/reviews-bg.png');
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: -1;
+}
+
+.reviews__container {
+    padding-left: 175px;
+}
+
+.reviews__title {
+    margin-bottom: 37px;
+}
+
+.reviews__list {
+    position: relative;
+}
+
+.reviews__item {
+    display: flex;
+}
+
+.reviews__img-box {
+    width: 341px;
+    height: 445px;
+    flex: none;
+    margin-right: 73px;
+    filter: drop-shadow(0px 25px 50px rgba(1, 46, 41, 0.15));
+}
+
+.reviews__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.reviews__content {
+    padding-top: 52px;
+    max-width: 500px;
+}
+
+.reviews__text {
+    color: var(--color-text-light);
+    margin-bottom: 40px;
+}
+
+.reviews__person {
+    color:var(--color-accent);
+    font-weight: 700;
+}
+
+.reviews__counter {
+    position: absolute;
+    left: 412px;
+    bottom: 4px;
+    font-size: 23px;
+    line-height: 28.18px;
+    color:var(--color-accent);
+    font-weight: 700;
+}
+
+.reviews__current-counter {
+    font-size: 38px;
+    line-height: 46.55px;
+    font-weight: 700;
+    color: var(--color-text-light);
+}
+
+.reviews__total-counter {
+    font-size: 23px;
+    line-height: 28.18px;
+    color:var(--color-accent);
+    font-weight: 700;
+}
+
+.reviews__controls {
+    position: absolute;
+    left: 595px;
+    bottom: 15px;
+}
+
+.reviews__button--prev {
+        margin-right: 38px;
+}
+
+.reviews__button-icon {
+    width: 31px;
+    height: 16px;
+    fill: var(--color-text-light);
+}
+

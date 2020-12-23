@@ -1,0 +1,46 @@
+.promo {
+    margin-bottom: 120px;
+}
+
+.promo__title {
+    margin-bottom: 30px;
+}
+
+.promo__subtitle {
+    font-size: 31px;
+    line-height: 38px;
+    letter-spacing: .005em;
+    max-width: 610px;
+    margin-bottom: 30px;
+}
+
+.promo-list {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.promo-list__item {
+    width: 100%;
+    max-width: 235px;
+}
+
+.promo-list__item:not(:last-child) {
+    margin-right: 72px;
+}
+
+.promo-list__title {
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 38px;
+    color: var(--color-accent);
+    margin-bottom: 17px;
+}
+
+.promo-list__text {
+    line-height: 22px;
+    letter-spacing: .005em;
+}
+
+.promo__button {
+    padding: 24px 66px;
+}
