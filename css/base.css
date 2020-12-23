@@ -11,7 +11,7 @@ body {
     color: var(--color-text);
     line-height: 22px;
     overflow-x: hidden;
-    background: linear-gradient(360deg, #FDFDFD 7.53%, rgba(255, 255, 255, 0) 59.49%), linear-gradient(181.62deg, #FDFDFD 1.35%, rgba(255, 255, 255, 0) 30.41%);
+    background:  #FDFDFD;
 }
 
 strong {
