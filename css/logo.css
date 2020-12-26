@@ -4,7 +4,13 @@
     flex: none;
     width: 163px;
     height: auto;
-    margin-right: 7px;
+    margin-right: auto;
+}
+
+@media (max-width: 1140px) {
+    .logo {
+        width: 90px;
+    }
 }
 
 .logo__img {

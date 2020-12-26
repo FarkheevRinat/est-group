@@ -12,6 +12,20 @@
     padding: 24px 85px;
 }
 
+@media (max-width: 1140px) {
+    .button {
+        font-size: 14px;
+        line-height: 17.15px ;
+    }
+}
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 12px;
+        line-height: 14.7px ;
+    }
+}
+
 .button__icon {
     height: 19px;
     width: 17px;
@@ -25,4 +39,16 @@
     width: 36px;
     height: 12px;
     fill: var(--color-accent);
+}
+
+.hamburger__icon {
+    display: none;
+    height: 28px;
+    width: 28px;
+}
+
+@media (max-width: 768px) {
+    .hamburger__icon {
+        display: block;
+    }
 }

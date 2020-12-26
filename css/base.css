@@ -30,11 +30,23 @@ strong {
 
 .container {
     width: 100%;
-    max-width: 1140px;
-    padding-left: 15px;
-    padding-right: 15px;    
+    max-width: 1160px;
+    padding-left: 25px;
+    padding-right: 25px;    
     margin: 0 auto;
 }
+
+/* @media (max-width: 1140px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 340px;
+    }
+} */
 
 .visually-hidden {
     position: absolute;
@@ -52,6 +64,22 @@ strong {
     font-size: 50px;
     font-weight: 900;
     line-height: 61px;
+}
+
+@media (max-width: 1140px) {
+    .page-title {
+        font-size: 26px;
+        line-height: 32px;
+        max-width: 445px;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 16px;
+        line-height: 19.6px;
+        max-width: 280px;
+    }
 }
 
 .section-title {
