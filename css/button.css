@@ -58,6 +58,13 @@
     fill: var(--color-accent);
 }
 
+@media (max-width: 1140px) {
+    .arrow-button {
+        width: 25px;
+        height: 11px;
+    }
+}
+
 .hamburger__icon {
     display: none;
     height: 28px;
