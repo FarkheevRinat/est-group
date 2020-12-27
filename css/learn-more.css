@@ -53,7 +53,7 @@
 
 .learn-more__description:before {
     content: '';
-    display: block;
+    display: flex;
     position: absolute;
     top: 0;
     right: 0;
@@ -77,7 +77,7 @@
 
 @media (max-width: 768px) {
     .learn-more__description:after {
-        display: block;
+        display: flex;
     }
 }
 
