@@ -152,3 +152,10 @@ strong {
     left: 100%;
     transform: translateX(-100%);
 }
+
+@media (max-width: 768px) {
+    .section-title--right {
+        left: 0;
+        transform: translateX(0);
+    }
+}
