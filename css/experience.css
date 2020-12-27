@@ -28,6 +28,7 @@
 
 @media (max-width: 1140px) {
     .experience__list {
+        margin: 0 auto;
         width: 92.2%;
     }
 }
@@ -35,7 +36,6 @@
 @media (max-width: 768px) {
     .experience__list {
         width: 69.65%;
-        margin: 0 auto;
     }
 }
 
