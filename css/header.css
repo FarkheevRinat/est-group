@@ -45,6 +45,8 @@
 @media (max-width: 1140px) {
     .header--main-page:after {
         height: 1280px;
+        background-size: cover;
+        background-position: top;
     }
 }
 

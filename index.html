@@ -179,37 +179,39 @@
             </ul>
         </div>
     </section>
-<!-- 
+
     <section class="advantages">
         <div class="container">
             <h2 class="section-title section-title--center advantages__title">Преимущества</h2>
             <div class="advantages__content">
-                <img src="./assets/img/advantages.png" alt="image" class="advantages__img">
+
+                <picture class="advantages__picture">
+                    <source srcset="./assets/img/advantages-sm.png" media="(max-width: 768px)" class="advantages__img">
+                    <source srcset="./assets/img/advantages-md.png" media="(max-width: 1140px)" class="advantages__img">
+                    <img src="./assets/img/advantages.png" alt="image" class="advantages__img">
+                </picture>
+
                 <ul class="advantages__list">
                     <li class="advantages__item">
                         Применяем <strong>современные решения</strong><br> 
                         оптимизации инвестиционных и<br> 
                         эксплуатационных затрат
-                        <button class="advantages__item-point"></button>
                     </li>
                     <li class="advantages__item">
                         <strong>Опыт</strong> специалистов в сфере<br> 
                         энергоэффективности и<br> 
                         экологичности зданий<br> 
                         <strong>от 5 до 10 лет</strong>
-                        <button class="advantages__item-point"></button>
                     </li>
                     <li class="advantages__item">
                         Специалисты аккредитованы в<br> 
                         <strong>международных системах</strong><br> 
                         сертификации LEED и BREEAM
-                        <button class="advantages__item-point"></button>
                     </li>
                     <li class="advantages__item">
                         Предоставляем<br> 
                         <strong>достоверный расчет</strong><br> 
                         сроков
-                        <button class="advantages__item-point"></button>
                     </li>
                 </ul>
             </div>
@@ -249,7 +251,10 @@
         <div class="container">
             <h2 class="section-title section-title--center map__title">Интерактивная карта с объектами</h2>
             <p class="map__text">Объекты, с которыми мы работаем, находятся в России, Казахстане, Узбекистане, Армении и не только</p>
-            <img src="./assets/img/map.png" alt="image" class="map__img"></img>
+            <picture class="map__picture">
+                <source srcset="./assets/img/map-tablet.png" media="(max-width: 1140px)" class="map__img">
+                <img src="./assets/img/map.png" alt="image" class="map__img"></img>
+            </picture>
         </div>
     </section>
 
@@ -259,7 +264,7 @@
                 <img src="./assets/img/learn-more.png" alt="image" class="learn-more__img">
                 <p class="learn-more__text">
                     <a href="#" class="learn-more__link">Узнайте больше</a> 
-                    о нашей компании
+                    о нашей компании —  правильное решение
                 </p>
                 <p class="learn-more__filename">Презентация (PDF 75,1 мб)</p>
                 <button class="button">
@@ -294,16 +299,8 @@
                     <span class="reviews__current-counter">01</span><span>/</span><span class="reviews__total-counter">46</span>
                 </div>
                 <div class="reviews__controls">
-                    <button class="reviews__button reviews__button--prev">
-                        <svg class="reviews__button-icon">
-                            <use xlink:href="assets/img/sprite.svg#arrow-prev-icon">
-                        </svg>
-                    </button>
-                    <button class="reviews__button reviews__button--next">
-                        <svg class="reviews__button-icon">
-                            <use xlink:href="assets/img/sprite.svg#arrow-next-icon">
-                        </svg>
-                    </button>
+                    <button class="reviews__button reviews__button--prev"></button>
+                    <button class="reviews__button reviews__button--next"></button>
                 </div>
             </ul>
         </div>
@@ -330,6 +327,9 @@
                     </li>
                 </ul>
             </nav>
+            <button class="hamburger header__hamburger">
+                <img src="./assets/img/hamburger.svg" alt="hamburger icon" class="hamburger__icon">
+            </button>
             <ul class="footer-contacts">
                 <li class="footer-contacts__item">
                     <a href="tel:+78008888888" class="footer-contacts__phone">8 800 888 88 88</a>
@@ -352,7 +352,7 @@
         <div class="container">
             <div class="copyright">EST GROUP 2016-2018 © все права защищены</div>
         </div>
-    </footer> -->
+    </footer>
 
     
     <script src="./js/scripts.js"></script>

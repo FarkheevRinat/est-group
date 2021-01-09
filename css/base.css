@@ -1,6 +1,5 @@
 html {
     font-size: 10px;
-    overflow-x: hidden;
 }
 
 body {
@@ -37,17 +36,12 @@ strong {
     margin: 0 auto;
 }
 
-/* @media (max-width: 1140px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
 @media (max-width: 768px) {
     .container {
-        max-width: 340px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
-} */
+} 
 
 .visually-hidden {
     position: absolute;
@@ -112,22 +106,20 @@ strong {
     background-color: var(--color-text);
     position: absolute;
     left: 0;
-    top: 50%;
-    transform: translateY(-3px);
+    top: 12px;
     opacity: 0.8;
 }
 
 @media (max-width: 1140px) {
     .section-title:before {
         width: 35px;
-        transform: translateY(-1px);
+        top: 7px;
     }
 }
 
 @media (max-width: 768px) {
     .section-title:before {
         width: 25px;
-        transform: translateY(-1px);
     }
 }
 
@@ -144,6 +136,13 @@ strong {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    .section-title--center {
+        left: 0;
+        transform: translateX(0);
+    }
 }
 
 .section-title--right {
