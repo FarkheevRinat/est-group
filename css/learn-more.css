@@ -4,7 +4,8 @@
 
 @media (max-width: 1140px) {
     .learn-more {
-        margin-bottom: 100px;
+        margin-bottom: 0;
+        padding-bottom: 100px;
     }
 }
 
@@ -208,12 +209,6 @@
         font-size: 10px;
         line-height: 12px;
         margin-bottom: 14px;
-    }
-}
-
-@media (max-width: 1140px) {
-    .learn-more--single {
-        margin-bottom: 100px;
     }
 }
 
