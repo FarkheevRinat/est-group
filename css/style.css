@@ -18,3 +18,11 @@
 @import './map.css';
 @import './reviews.css';
 @import './footer.css';
+
+@import './lb-promo.css';
+@import './lb-services.css';
+@import './lb-partner.css';
+@import './lb-team.css';
+@import './lb-advantages.css';
+
+@import './projects.css';

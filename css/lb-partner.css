@@ -1,0 +1,113 @@
+.lb-partner {
+    margin-bottom: 120px;
+}
+    @media (max-width: 1140px) {
+        .lb-partner {
+            margin-bottom: 100px;
+        }
+    }
+
+.lb-partner__container {
+    max-width: 720px;
+    padding-left: 60px;
+}
+    @media (max-width: 1140px) {
+        .lb-partner__container {
+            max-width: 490px;
+            padding-left: 20px;
+        }
+    }
+
+.lb-partner__title {
+    padding-left: 115px;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 60px;
+}
+    @media (max-width: 1140px) {
+        .lb-partner__title {
+            padding-left: 59px;
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 50px;
+        }
+    }
+    @media (max-width: 768px) {
+        .lb-partner__title {
+            padding-left: 38px;
+        }
+    }
+
+.lb-partner__list {
+    margin-left: 115px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 451px;
+}
+    @media (max-width: 1140px) {
+        .lb-partner__list {
+            margin-left: 59px;
+            max-width: 388px;
+        }
+    }
+    @media (max-width: 768px) {
+        .lb-partner__list {
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
+
+.lb-partner__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 47.2%;
+    min-height: 237px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 35px rgba(0, 80, 71, 0.05);
+    padding: 35px 20px;
+}
+    @media (max-width: 1140px) {
+        .lb-partner__item {
+            width: 47.6%;
+            min-height: 210px;
+        }
+    }
+    @media (max-width: 768px) {
+        .lb-partner__item {
+            width: 185px;
+        }
+
+        .lb-partner__item:not(:last-child) {
+            margin-bottom: 28px;
+        }
+    }
+
+.lb-partner__name {
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+    @media (max-width: 1140px) {
+        .lb-partner__name {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 8px;
+        }
+    }
+
+.lb-partner__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    @media (max-width: 1140px) {          
+        .lb-partner__img {
+            max-width: 90px;
+        }
+    }

@@ -1,4 +1,6 @@
-.button {
+.button,
+.button:link,
+.button:visited {
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -11,22 +13,24 @@
     filter: drop-shadow(0px 20px 50px rgba(0, 80, 71, 0.2));
     padding: 24px 85px;
 }
-
-@media (max-width: 1140px) {
-    .button {
-        font-size: 14px;
-        line-height: 17.15px;
-        padding: 15px 58px;
+    @media (max-width: 1140px) {
+        .button,
+        .button:link,
+        .button:visited {
+            font-size: 14px;
+            line-height: 17.15px;
+            padding: 15px 58px;
+        }
     }
-}
-
-@media (max-width: 768px) {
-    .button {
-        font-size: 12px;
-        line-height: 14.7px ;
-        padding: 15px 43px;
+    @media (max-width: 768px) {
+        .button,
+        .button:link,
+        .button:visited {
+            font-size: 12px;
+            line-height: 14.7px ;
+            padding: 15px 43px;
+        }
     }
-}
 
 .button__icon {
     height: 19px;
@@ -35,21 +39,19 @@
     fill-opacity: .6;
     margin-left: 10px;
 }
-
-@media (max-width: 1140px) {
-    .button__icon {
-        height: 12px;
-        width: 10.85px;
+    @media (max-width: 1140px) {
+        .button__icon {
+            height: 12px;
+            width: 10.85px;
+        }
     }
-}
-
-@media (max-width: 1140px) {
-    .button__icon {
-        height: 10.6px;
-        width: 9px;
-        margin-left: 7.5px;
+    @media (max-width: 1140px) {
+        .button__icon {
+            height: 10.6px;
+            width: 9px;
+            margin-left: 7.5px;
+        }
     }
-}
 
 .arrow-button {
     display: flex;
@@ -57,22 +59,20 @@
     height: 12px;
     fill: var(--color-accent);
 }
-
-@media (max-width: 1140px) {
-    .arrow-button {
-        width: 25px;
-        height: 11px;
+    @media (max-width: 1140px) {
+        .arrow-button {
+            width: 25px;
+            height: 11px;
+        }
     }
-}
 
 .hamburger__icon {
     display: none;
     height: 28px;
     width: 28px;
 }
-
-@media (max-width: 768px) {
-    .hamburger__icon {
-        display: block;
+    @media (max-width: 768px) {
+        .hamburger__icon {
+            display: block;
+        }
     }
-}

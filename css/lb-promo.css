@@ -1,0 +1,253 @@
+.lb-promo {
+    width: 100%;
+    padding-top: 230px;
+    padding-bottom: 120px;
+    background: url('../assets/img/leed-breeam-promo-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 120px;
+}
+
+    @media (max-width: 1140px) {
+        .lb-promo {
+            padding-top: 196px;
+            padding-bottom: 47px;
+            margin-bottom: 50px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lb-promo {
+            padding-top: 152px;
+            padding-bottom: 50px;
+            background: 
+                linear-gradient(360deg, #FDFDFD 0%, rgba(253, 253, 253, 0) 100%), 
+                url('../assets/img/leed-breeam-promo-bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 80%;
+        }
+    }
+
+.lb-promo .page-title {
+    font-size: 28px;
+    line-height: 34px;
+    max-width: 675px;
+    margin-bottom: 40px;
+}
+
+    @media (max-width: 1140px) {
+        .lb-promo .page-title {
+            font-size: 26px;
+            line-height: 32px;
+            max-width: 625px;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lb-promo .page-title {
+            font-size: 16px;
+            line-height: 20px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 28px;
+        }
+    }
+
+.lb-promo__content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end;
+}
+
+    @media (max-width: 1140px) {
+        .lb-promo__content {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lb-promo__content {
+            align-items: center;
+        }
+    }
+
+.lb-promo__left {
+    margin-right: 50px;
+}
+
+    @media (max-width: 1140px) {
+        .lb-promo__left {
+            margin-right: 0;
+        }
+    }
+
+.lb-promo__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 450px;
+    margin-bottom: -5px;
+}
+
+    @media (max-width: 1140px) {
+        .lb-promo__subtitle {
+            font-size: 16px;
+            line-height: 20px;
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lb-promo__subtitle {
+            font-size: 12px;
+            line-height: 15px;
+            max-width: 290px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 28px;
+        }
+
+        .lb-promo__subtitle strong {
+            font-weight: 400;
+        }
+    }
+
+.lb-promo__right {
+    width: 100%;
+    max-width: 584px;
+    display: flex;
+    padding: 25px 7px 25px 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(3, 88, 69, 0.1);
+}
+
+    @media (max-width: 1140px) {
+        .lb-promo__right {
+            order: -1;
+            max-width: 518px;
+            padding: 10px 22px;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lb-promo__right {
+            max-width: 290px;
+            padding: 22px;
+            padding-right: 6px;
+        }
+    }
+
+.lb-promo__list {
+    display: flex;
+}
+
+    @media (max-width: 768px) {
+        .lb-promo__list {
+            flex-direction: column;
+        }
+    }
+
+.lb-promo__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+    @media (max-width: 768px) {
+        .lb-promo__item:not(:last-child) {
+            margin-right: 0;
+            margin-bottom: 17px;
+        }
+    }
+
+.lb-promo__header {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 900;
+    color: var(--color-accent);
+}
+
+    @media (max-width: 1140px) {
+        .lb-promo__header {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 3px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lb-promo__header {
+            font-size: 16px;
+            line-height: 18px;
+            margin-bottom: 0;
+        }
+    }
+
+.lb-promo__header sup {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 0;
+    transform: translateY(-10px);
+}
+
+    @media (max-width: 768px) {
+        .lb-promo__header sup {
+            font-size: 10px;
+            transform: translateY(-6px);
+        }
+    }
+
+    @media (max-width: 1140px) {
+        .lb-promo__text {
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        .lb-promo__text strong {
+            font-weight: 400;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lb-promo__text {
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+
+.lb-promo__img-box {
+    position: relative;
+    min-width: 213px;
+    margin-left: auto;
+    flex: none;
+}
+
+    @media (max-width: 1140px) {
+        .lb-promo__img-box {
+            min-width: 100px;
+        }
+    }
+
+.lb-promo__img {
+    position: absolute;
+    right: 0;
+    bottom: -47px;
+    width: 100%;
+    height: auto;
+}
+
+    @media (max-width: 1140px) {
+        .lb-promo__img {
+            bottom: -24px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lb-promo__img {
+            bottom: -9px;
+        }
+    }

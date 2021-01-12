@@ -7,11 +7,11 @@
     margin-right: auto;
 }
 
-@media (max-width: 1140px) {
-    .logo {
-        width: 90px;
+    @media (max-width: 1140px) {
+        .logo {
+            width: 90px;
+        }
     }
-}
 
 .logo__img {
     max-width: 100%;

@@ -1,0 +1,123 @@
+.lb-services {
+    margin-bottom: 120px;
+}
+
+    @media (max-width: 1140px) {
+        .lb-services {
+            margin-bottom: 100px;
+        }
+    }
+
+.lb-services__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+    @media (max-width: 1140px) {
+        .lb-services__list {
+            max-width: 635px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }   
+
+    @media (max-width: 768px) {
+        .lb-services__list {
+            
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }   
+
+.lb-services__item {
+    width: 48.65%;
+    position: relative;
+    padding: 80px 37px 268px 80px;
+    background: #004A42;
+    box-shadow: 0px 30px 70px rgba(3, 88, 69, 0.13);
+}
+
+    @media (max-width: 1140px) {
+        .lb-services__item {
+            width: 48.8%;
+            padding: 42px 27px 145px 42px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .lb-services__item {
+            width: 100%;
+            padding: 37px 26px 130px 34px;
+            min-height: 339px;
+        }
+
+        .lb-services__item:not(:last-child) {
+            margin-bottom: 28px;
+        }
+    }
+
+.lb-services__title {
+    position: relative;
+    z-index: 2;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #00887A;
+    margin-bottom: 10px;
+}
+
+    @media (max-width: 1140px) {
+        .lb-services__title {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+
+.lb-services__text {
+    position: relative;
+    z-index: 2;
+    color: #FDFDFD;
+}
+
+.lb-services__text:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+    @media (max-width: 1140px) {
+        .lb-services__text {
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+
+.lb-services__img-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(180deg, #004A42 0%, rgba(0, 74, 66, 0.2) 100%), 
+        linear-gradient(0deg, rgba(0, 74, 66, 0.3), rgba(0, 74, 66, 0.3));
+    z-index: 1;
+}
+
+.lb-services__img-box:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(180deg, #004A42 0%, rgba(0, 74, 66, 0.2) 100%), 
+        linear-gradient(0deg, rgba(0, 74, 66, 0.3), rgba(0, 74, 66, 0.3));
+}
+
+.lb-services__img {
+    width: 100%;
+    display: block;
+}

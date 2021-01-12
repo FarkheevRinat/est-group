@@ -73,16 +73,16 @@
     bottom: 0;
 }
 
-@media (max-width: 768px) {
-    .advantages__list {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        height: 293px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    @media (max-width: 768px) {
+        .advantages__list {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            height: 293px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
     }
-}
 
 .advantages__item {
     position: absolute;

@@ -1,4 +1,9 @@
-document.addEventListener('DOMContentLoaded', reviewsResize);
+document.addEventListener('DOMContentLoaded', () => {
+    const reviews = document.querySelector('.reviews');
+    if (reviews) {
+        reviewsResize();
+    }
+});
 window.addEventListener('resize', reviewsResize);
 
 function reviewsResize() {
