@@ -42,10 +42,7 @@
         .contact-form__box {
             max-width: 100%;
             padding: 95px 32px;
-            background-image: 
-                linear-gradient(90.17deg, #FFFFFF 6.39%, rgba(255, 255, 255, 0) 94.66%), 
-                linear-gradient(0deg, #FFFFFF 15.36%, rgba(255, 255, 255, 0) 82.55%),
-                url('../assets/img/contact-form-bg-mobile-top.png'), #FFFFFF;
+            background-image: url('../assets/img/contact-form-bg-mobile-top.png');
             background-repeat: no-repeat;
             background-position: calc(100% - 11px) 11px;
             background-size: 192px 192px;
