@@ -36,8 +36,8 @@
     width: 48.65%;
     position: relative;
     padding: 80px 37px 268px 80px;
-    background: #004A42;
-    box-shadow: 0px 30px 70px rgba(3, 88, 69, 0.13);
+    background: #FFFFFF;
+    box-shadow: 0px 30px 70px rgba(3, 88, 69, 0.1);
 }
 
     @media (max-width: 1140px) {
@@ -79,7 +79,6 @@
 .lb-services__text {
     position: relative;
     z-index: 2;
-    color: #FDFDFD;
 }
 
 .lb-services__text:not(:last-child) {
@@ -98,9 +97,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
-        linear-gradient(180deg, #004A42 0%, rgba(0, 74, 66, 0.2) 100%), 
-        linear-gradient(0deg, rgba(0, 74, 66, 0.3), rgba(0, 74, 66, 0.3));
     z-index: 1;
 }
 
@@ -113,9 +109,34 @@
     right: 0;
     bottom: 0;
     background: 
-        linear-gradient(180deg, #004A42 0%, rgba(0, 74, 66, 0.2) 100%), 
-        linear-gradient(0deg, rgba(0, 74, 66, 0.3), rgba(0, 74, 66, 0.3));
+        linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.2) 100%), 
+        linear-gradient(0deg, rgba(255, 255, 255, 0.75),
+        rgba(255, 255, 255, 0.75))
 }
+
+.lb-services__logo {
+    position: absolute;
+    bottom: 88px;
+    left: 70px;
+    height: 134px;
+    width: 134px;
+}
+    @media (max-width: 1140px) {
+        .lb-services__logo {
+            bottom: 45px;
+            left: 40px;
+            height: 75px;
+            width: 75px;
+        }
+    }
+    @media (max-width: 768px) {
+        .lb-services__logo {
+            left: 34px;
+            bottom: 37px;
+            height: 66px;
+            width: 66px;
+        }
+    }
 
 .lb-services__img {
     width: 100%;

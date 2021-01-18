@@ -38,6 +38,10 @@
         }
     }
 
+.lb-partner__title span {
+    color: var(--color-accent);
+}
+
 .lb-partner__list {
     margin-left: 115px;
     display: flex;
