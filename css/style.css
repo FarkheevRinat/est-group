@@ -26,9 +26,10 @@
 @import './lb-advantages.css';
 
 
-@import './bim-promo.css';
-@import './bim-advantages.css';
-@import './bim-report.css';
+@import './bem-promo.css';
 
+@import './work-report.css';
+@import './advantages-cards.css';
 @import './projects.css';
 @import './contact-form.css';
+@import './bulleted-list.css';

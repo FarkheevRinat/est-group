@@ -32,7 +32,6 @@
         .projects__title {
             font-size: 16px;
             line-height: 20px;
-            margin-left: 18.5%;
             margin-bottom: 19px;
             transform: translateX(0);
         }
@@ -57,7 +56,6 @@
             font-size: 12px;
             line-height: 15px;
             margin-bottom: 50px;
-            margin-left: 18.5%;
             padding-left: 0;
             padding-right: 0;
         }

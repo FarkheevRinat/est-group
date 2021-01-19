@@ -4,6 +4,9 @@
         linear-gradient(0deg, #FDFDFD 44.68%, rgba(253, 253, 253, 0) 88.8%), 
         linear-gradient(180deg, #FDFDFD 0%, rgba(253, 253, 253, 0) 80.35%), 
         url('../assets/img/contact-form-section-bg.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+
     margin-bottom: 120px;
 }
     @media (max-width: 1140px) {

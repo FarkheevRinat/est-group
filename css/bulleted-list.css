@@ -1,0 +1,101 @@
+.bulleted-list {
+    margin-bottom: 120px;
+}
+    @media (max-width: 1140px) {
+        .bulleted-list {
+            padding-left: 50px;
+            margin-bottom: 100px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bulleted-list {
+            padding-left: 0;
+        }
+    }
+
+.bulleted-list__title {
+    max-width: 660px;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+    @media (max-width: 1140px) {
+        .bulleted-list__title {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 20px;
+            max-width: 500px;
+        }
+    @media (max-width: 768px) {
+        .bulleted-list__title {
+            
+        }
+    }
+
+        .bulleted-list__title:before {
+            top: 9px;
+        }
+    }
+
+.bulleted-list__list {
+    padding-left: 88px;
+    width: 70%;
+}
+    @media (max-width: 1140px) {
+        .bulleted-list__list {
+            padding-left: 60px;
+            width: 75%;
+        }
+    }
+    @media (max-width: 768px) {
+        .bulleted-list__list {
+            padding-left: 38px;
+            width: 90%;
+        }
+    }
+
+.bulleted-list__item {
+    position: relative;
+    font-size: 21px;
+    line-height: 26px;
+    padding-left: 45px;
+    margin-bottom: 15px;
+}
+    @media (max-width: 1140px) {
+        .bulleted-list__item {
+            font-size: 14px;
+            line-height: 17px;
+            padding-left: 30px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bulleted-list__item {
+            font-size: 12px;
+            line-height: 15px;
+            padding-left: 18px;
+        }
+    }
+
+.bulleted-list__item:last-of-type {
+    margin-bottom: 0;
+}
+
+.bulleted-list__item:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background: #00887A;
+    box-shadow: 0px 0px 25px rgba(0, 136, 122, 0.15);
+}
+    @media (max-width: 1140px) {
+        .bulleted-list__item:before {
+            width: 8px;
+            height: 8px;
+            top: 4px;
+        }
+    }

@@ -1,18 +1,18 @@
-.bim-advantages {
+.advantages-cards {
     margin-bottom: 60px;
 }
 
-.bim-advantages__title {
+.advantages-cards__title {
     margin-bottom: 53px;
 }
 
-.bim-advantages__list {
+.advantages-cards__list {
     position: relative;
     display: flex;
     margin: -22px;
 }
 
-.bim-advantages__list:before {
+.advantages-cards__list:before {
     content: '';
     position: absolute;
     top: 73px;
@@ -25,7 +25,7 @@
     z-index: 2;
 }
 
-.bim-advantages__item {
+.advantages-cards__item {
     position: relative;
     padding: 89px 34px 73px 43px;
     background-color: #FFFFFF;
@@ -34,7 +34,7 @@
     width: calc(100% / 3 - 44px);
 }
 
-.bim-advantages__item:before {
+.advantages-cards__item:before {
     content: '';
     position: absolute;
     top: 35px;
@@ -47,18 +47,18 @@
     border-radius: 50%;
 }
 
-.bim-advantages__item:first-child {
+.advantages-cards__item:first-child {
     background-image:
         linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 88.47%), 
-        url('../assets/img/bim-advantages-01.png');
+        url('../assets/img/advantages-cards-01.png');
     background-position: bottom left;
     background-repeat: no-repeat;
 }
 
-.bim-advantages__item:last-child {
+.advantages-cards__item:last-child {
     background-image:
         linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 88.47%), 
-        url('../assets/img/bim-advantages-02.png');
+        url('../assets/img/advantages-cards-02.png');
     background-position: bottom left;
     background-repeat: no-repeat;
 }

@@ -1,24 +1,18 @@
-.bim-promo {
+.bem-promo {
     padding-top: 230px;
-    padding-bottom: 60px;
-    margin-bottom: 60px;
-    background-image: 
-        linear-gradient(360deg, #FDFDFD 5.51%, rgba(253, 253, 253, 0) 100%),
-        url('../assets/img/bim-promo-bg.png');
+    padding-bottom: 120px;
+    margin-bottom: 120px;
+    background-image: url('../assets/img/bem-promo-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bim-promo__container {
+.bem-promo__container {
     display: flex;
     align-items: center;
 }
 
-.bim-promo__content {
-    
-}
-
-.bim-promo__title {
+.bem-promo__title {
     max-width: 560px;
     font-size: 32px;
     font-weight: 900;
@@ -26,30 +20,30 @@
     margin-bottom: 30px;
 }
 
-.bim-promo__subtitle {
+.bem-promo__subtitle {
     max-width: 600px;
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 30px;
 }
 
-.bim-promo__list {
+.bem-promo__list {
     display: flex;
     align-items: center;
     margin-bottom: 37px;
 }
 
-.bim-promo__item {
+.bem-promo__item {
     display: flex;
     align-items: center;
     max-width: 280px;
 }
 
-.bim-promo__item:not(:last-child) {
+.bem-promo__item:not(:last-child) {
     margin-right: 45px;
 }
 
-.bim-promo__icon-box {
+.bem-promo__icon-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,16 +56,16 @@
     margin-right: 30px;
 }
 
-.bim-promo__icon {
+.bem-promo__icon {
     width: 27.47px;
     height: 27.47px;
     fill: #FFFFFF;
     flex: none;
 }
 
-.bim-promo__button:link,
-.bim-promo__button:visited,
-.bim-promo__button {
+.bem-promo__button:link,
+.bem-promo__button:visited,
+.bem-promo__button {
     justify-content: center;
     padding: 24px;
     max-width: 260px;

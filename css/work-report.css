@@ -1,39 +1,39 @@
-.bim-report {
+.work-report {
     margin-bottom: 120px;
 }
 
-.bim-report__banner {
+.work-report__banner {
     display: flex;
     padding: 55px 65px;
     background-color: #004A42;
     box-shadow: 0px 25px 40px rgba(0, 80, 71, 0.1);
 }
 
-.bim-report__content {
+.work-report__content {
     width: 63.87%;
 }
 
-.bim-report__title {
+.work-report__title {
     font-size: 30px;
     line-height: 37px;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
 
-.bim-report__title strong {
+.work-report__title strong {
     color: #00887A;
 }
 
-.bim-report__text {
+.work-report__text {
     color: #FFFFFF;
 }
 
-.bim-report__img-box {
+.work-report__img-box {
     position: relative;
     width: 40.4%;
 }
 
-.bim-report__img {
+.work-report__img {
     position: absolute;
     width: 100%;
     right: -42px;

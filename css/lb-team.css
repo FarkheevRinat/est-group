@@ -107,6 +107,10 @@
         }
     }
 
+.lb-team__list:last-of-type {
+    margin-bottom: 0;
+}
+
 .lb-team__item {
     position: relative;
     font-size: 21px;
