@@ -6,10 +6,25 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+    @media (max-width: 1140px) {
+        .bem-promo {
+            padding-top: 196px;
+            padding-bottom: 100px;
+            margin-bottom: 100px;
+        }
+
+        .bem-promo .learn-more__content {
+            display: none;
+        }
+    }
 
 .bem-promo__container {
     display: flex;
     align-items: center;
+}
+
+.bem-promo__content {
+    width: 100%;
 }
 
 .bem-promo__title {
@@ -19,6 +34,22 @@
     line-height: 39px;
     margin-bottom: 30px;
 }
+    @media (max-width: 1140px) {
+        .bem-promo__title {
+            max-width: 625px;
+            font-size: 26px;
+            line-height: 32px;
+            margin-bottom: 40px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bem-promo__title {
+            max-width: 280px;
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 28px;
+        }
+    }
 
 .bem-promo__subtitle {
     max-width: 600px;
@@ -26,12 +57,39 @@
     line-height: 27px;
     margin-bottom: 30px;
 }
+    @media (max-width: 1140px) {
+        .bem-promo__subtitle {
+            max-width: 600px;
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 40px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bem-promo__subtitle {
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 28px;
+        }
+    }
 
 .bem-promo__list {
     display: flex;
     align-items: center;
     margin-bottom: 37px;
 }
+    @media (max-width: 1140px) {
+        .bem-promo__list {
+            margin-bottom: 43px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bem-promo__list {
+            flex-direction: column;
+            margin-bottom: 28px;
+            align-items: flex-start;
+        }
+    }
 
 .bem-promo__item {
     display: flex;
@@ -42,6 +100,17 @@
 .bem-promo__item:not(:last-child) {
     margin-right: 45px;
 }
+    @media (max-width: 1140px) {
+        .bem-promo__item:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bem-promo__item:not(:last-child) {
+            margin-right: 0px;
+            margin-bottom: 14px;
+        }
+    }
 
 .bem-promo__icon-box {
     display: flex;
@@ -55,12 +124,51 @@
     flex: none;
     margin-right: 30px;
 }
+    @media (max-width: 1140px) {
+        .bem-promo__icon-box {
+            width: 52px;
+            height: 52px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bem-promo__icon-box {
+            width: 42px;
+            height: 42px;
+            margin-right: 20px;
+        }
+    }
 
 .bem-promo__icon {
     width: 27.47px;
     height: 27.47px;
     fill: #FFFFFF;
     flex: none;
+}
+    @media (max-width: 1140px) {
+        .bem-promo__icon {
+            width: 24.47px;
+            height: 24.47px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bem-promo__icon {
+            width: 19.83px;
+            height: 19.83px;
+        }
+    }
+
+@media (max-width: 1140px) {
+    .bem-promo__text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .bem-promo__text {
+        max-width: 140px;
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
 
 .bem-promo__button:link,
@@ -70,31 +178,19 @@
     padding: 24px;
     max-width: 260px;
 }
-
-.learn-more__content--sm {
-    padding: 31px 27px 30px 31px;
-    max-width: 350px;
-    margin-left: auto;
-}
-
-.learn-more__content--sm .learn-more__text {
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 15px;
-}
-
-.learn-more__content--sm .learn-more__filename {
-    margin-bottom: 15px;
-}
-
-.learn-more__content--sm .button {
-    padding: 15px 55px;
-    font-size: 14px;
-    line-height: 17px;
-}
-
-.learn-more__content--sm .learn-more__img {
-    max-width: 138px;
-    height: auto;
-    right: -22px;
-}
+    @media (max-width: 1140px) {
+        .bem-promo__button:link,
+        .bem-promo__button:visited,
+        .bem-promo__button {
+            padding: 20px;
+            max-width: 230px;
+        }
+    }   
+    @media (max-width: 768px) {
+        .bem-promo__button:link,
+        .bem-promo__button:visited,
+        .bem-promo__button {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }   

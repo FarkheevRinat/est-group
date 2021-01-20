@@ -1,17 +1,42 @@
 .work-report {
     margin-bottom: 120px;
 }
+    @media (max-width: 1140px) {
+        .work-report {
+            margin-bottom: 100px;
+        }
+    }
 
 .work-report__banner {
     display: flex;
     padding: 55px 65px;
     background-color: #004A42;
     box-shadow: 0px 25px 40px rgba(0, 80, 71, 0.1);
+    border-radius: 5px;
 }
+    @media (max-width: 1140px) {
+        .work-report__banner {
+            padding: 40px 25px 40px 40px;
+            justify-content: space-around;
+        }
+    }
+    @media (max-width: 768px) {
+        .work-report__banner {
+            padding: 50px 20px 50px 40px;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
 
 .work-report__content {
     width: 63.87%;
 }
+    @media (max-width: 1140px) {
+        .work-report__content {
+            width: 100%;
+            max-width: 411px;
+        }
+    }
 
 .work-report__title {
     font-size: 30px;
@@ -19,6 +44,20 @@
     color: #FFFFFF;
     margin-bottom: 20px;
 }
+    @media (max-width: 1140px) {
+        .work-report__title {
+            display: inline;
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 0px;
+        }
+    }
+    @media (max-width: 768px) {
+        .work-report__title {
+            font-size: 12px;
+            line-height: 14px;
+        }
+    }
 
 .work-report__title strong {
     color: #00887A;
@@ -27,11 +66,36 @@
 .work-report__text {
     color: #FFFFFF;
 }
+    @media (max-width: 1140px) {
+        .work-report__text {
+            display: inline;
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+    @media (max-width: 768px) {
+        .work-report__text {
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
 
 .work-report__img-box {
     position: relative;
     width: 40.4%;
 }
+    @media (max-width: 1140px) {
+        .work-report__img-box {
+            width: 100%;
+            max-width: 203px;
+        }
+    }
+    @media (max-width: 768px) {
+        .work-report__img-box {
+            margin-left: auto;
+            max-width: 130px;
+        }
+    }
 
 .work-report__img {
     position: absolute;
@@ -39,4 +103,15 @@
     right: -42px;
     bottom: -39px;
 }
+    @media (max-width: 1140px) {
+        .work-report__img {
+            right: 0px;
+            bottom: 0px;
+        }
+    }
+    @media (max-width: 768px) {
+        .work-report__img {
+            transform: translateY(100%);
+        }
+    }
 

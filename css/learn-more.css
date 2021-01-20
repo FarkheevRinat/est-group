@@ -294,3 +294,32 @@
 .learn-more--single .button {
     margin-left: -5px;
 }
+
+
+.learn-more__content--sm {
+    padding: 31px 27px 30px 31px;
+    max-width: 350px;
+    margin-left: auto;
+}
+
+.learn-more__content--sm .learn-more__text {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+
+.learn-more__content--sm .learn-more__filename {
+    margin-bottom: 15px;
+}
+
+.learn-more__content--sm .button {
+    padding: 15px 55px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.learn-more__content--sm .learn-more__img {
+    max-width: 138px;
+    height: auto;
+    right: -22px;
+}

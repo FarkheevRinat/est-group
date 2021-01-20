@@ -13,6 +13,14 @@
         }
     }
 
+@media (max-width: 768px) {
+    .bulleted-list__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+    }
+}   
+
 .bulleted-list__title {
     max-width: 660px;
     font-size: 22px;
@@ -26,16 +34,11 @@
             margin-bottom: 20px;
             max-width: 500px;
         }
-    @media (max-width: 768px) {
-        .bulleted-list__title {
-            
-        }
     }
 
-        .bulleted-list__title:before {
-            top: 9px;
-        }
-    }
+.bulleted-list__title:before {
+    top: 9px;
+}
 
 .bulleted-list__list {
     padding-left: 88px;
