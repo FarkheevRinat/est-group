@@ -65,7 +65,7 @@
 
 .work-report__img-box {
     position: relative;
-    width: 40.4%;
+    width: 300px;
 }
     @media (max-width: 1140px) {
         .work-report__img-box {
