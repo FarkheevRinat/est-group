@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EST Group | BEM-моделирование</title>
+    <title>EST Group | BIM-моделирование</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -47,30 +47,13 @@
         </div>
     </header>
 
-    <section class="bem-promo">
-        <div class="container bem-promo__container">
-            <div class="bem-promo__content">
-                <h1 class="bem-promo__title">Энергомоделирование. Building Energy Modeling (BEM)</h1>
-                <p class="bem-promo__subtitle">Международный инструмент оценки эксплуатационных затрат объекта</p>
-                <ul class="bem-promo__list">
-                    <li class="bem-promo__item">
-                        <div class="bem-promo__icon-box">
-                            <svg class="bem-promo__icon">
-                                <use xlink:href="assets/img/sprite.svg#drawing-icon">
-                            </svg>
-                        </div>
-                        <p class="bem-promo__text">Для объектов нового строительства</p>
-                    </li>
-                    <li class="bem-promo__item">
-                        <div class="bem-promo__icon-box">
-                            <svg class="bem-promo__icon">
-                                <use xlink:href="assets/img/sprite.svg#building-icon">
-                            </svg>
-                        </div>
-                        <p class="bem-promo__text">Для существующих объектов</p>
-                    </li>
-                </ul>
-                <a href="#" class="button bem-promo__button">Наши проекты</a>
+    <section class="bim-promo">
+        <div class="container bim-promo__container">
+            <div class="bim-promo__content">
+                <h1 class="bim-promo__title">BIM-моделирование (Buidling Information Modeling)</h1>
+                <p class="bim-promo__subtitle">Цифровое (информационное) моделирование здания</p>
+                <p class="bim-promo__subtitle"><strong>Современный формат проектирования объектов недвижимости</strong></p>
+                <a href="#" class="button bim-promo__button">Наши проекты</a>
             </div>
             <div class="learn-more__content learn-more__content--sm">
                 <img src="./assets/img/learn-more.png" alt="image" class="learn-more__img">
@@ -91,26 +74,38 @@
 
     <section class="advantages-cards">
         <div class="container">
-            <h2 class="section-title advantages-cards__title">Преимущества энергомоделирования</h2>
+            <h2 class="section-title advantages-cards__title">Преимущества BIM-моделирования</h2>
             <ul class="advantages-cards__list">
                 <li class="advantages-cards__item">
-                    <p class="advantages-cards__text">Создание трехмерной модели здания с учетом всех расходов энергии, тепла и холода в течение года</p>
+                    <p class="advantages-cards__text">BIM-модель дает полное представление об объекте (геометрия, география, функционал, дизайн, влияние на внутреннюю и внешнюю среду, бюджет проекта и т.д.)</p>
                 </li>
                 <li class="advantages-cards__item">
-                    <p class="advantages-cards__text">Модель учитывает архитектурные решения, ограждающие конструкции, технологию строительства, параметры климата и инженерных систем, вычисляет потребность в ресурсах для здания в течение всего года</p>
+                    <p class="advantages-cards__text">BIM-модель используется для работы всеми участниками процесса реализации объекта (архитекторы, проектировщики, инженеры, строители, монтажники, владельцы). Это позволяет всем участникам процесса видеть изменения в проекте, смете и формате реализации объекта</p>
                 </li>
                 <li class="advantages-cards__item">
-                    <p class="advantages-cards__text">Показывает вклад инженерных решений в итоговые эксплуатационные затраты объекта, и как следствие, позволяет сформировать для заказчика перечень решений для оптимизации затрат</p>
+                    <p class="advantages-cards__text">BIM-модель дает полный контроль над реализацией проекта и позволяет владельцу на 80% точнее составлять бюджет на реализацию объекта</p>
                 </li>
             </ul>
         </div>
     </section>
 
+    <section class="info">
+        <div class="container">
+            <div class="info__card">
+                <h2 class="info__title">Важно!</h2>
+                <p class="info__text">Применение BIM-технологии <span>обязательно</span> для проектов госзаказа с 2019 года</p>
+                <p class="info__text"><span>До конца 2022 года</span> все госструктуры при строительстве зданий и сооружений должны перейти на BIM Пр-1235 от 19 июля 2018 года.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BIM-математика, или почему это выгодно? -->
+
     <section class="work-report">
         <div class="container">
             <div class="work-report__banner">
                 <div class="work-report__content">
-                    <p class="work-report__text"><strong>Результат работы —</strong> комплексный отчет с построенной энергомоделью. Заказчик получает комплексный документ, определяющий уровень расхода ресурсов на месяц/квартал/6 месяцев/1 год</p>
+                    <p class="work-report__text"><strong>Результат работы —</strong> комплексная BIM-модель здания. Для работы со всей командой над проектом  с определением точной сметы на реализацию</p>
                 </div>
                 <div class="work-report__img-box">
                     <img src="./assets/img/work-report-img.png" alt="image" class="work-report__img">
@@ -119,23 +114,10 @@
         </div>
     </section>
 
-    <section class="bulleted-list">
-        <div class="container bulleted-list__container">
-            <h2 class="bulleted-list__title section-title">Ориентируясь на результат энергомоделирования, заказчик понимает:</h2>
-            <ul class="bulleted-list__list">
-                <li class="bulleted-list__item">Где у объекта есть резервы для снижения затрат ресурсов</li>
-                <li class="bulleted-list__item">Какова окупаемость энергоэффективных решений еще на этапе проектирования. Это дает возможность поработать с объектом, проанализировать огромное количество инженерных решений и технологий, выбрать только необходимые</li>
-            </ul>
-        </div>
-    </section>
-
     <section class="projects">
         <div class="container">
             <div class="projects__content">
-                <h2 class="section-title projects__title">Объекты</h2>
-                <div class="projects__description">
-                    <p>Сделать энергомоделирование возможно для объекта любого функционала, площади и сложности</p>
-                </div>
+                <h2 class="section-title projects__title">Объекты, которые мы уже реализовали в BIM</h2>
                 <h3 class="projects__caption">Последние выполненные проекты</h3>
                 <ul class="projects__list">
                     <li class="projects__item">
@@ -190,7 +172,7 @@
                     </div>
                     <div class="reviews__content">
                         <p class="reviews__text">
-                            “Для нас строительство нового корпуса КБТУ – колоссальный проект. Цель – получить Платиновый сертификат по международной системе LEED. Это первый проект такого высокого уровня сертификата в Казахстане. В проекте применены инновационные системы оценки энергоэффективности и проектирования, а также BEM (Building energy modeling) в программе IES”.
+                            “Для нас строительство нового корпуса КБТУ – колоссальный проект. Цель – получить Платиновый сертификат по международной системе LEED. Это первый проект такого высокого уровня сертификата в Казахстане. В проекте применены инновационные системы оценки энергоэффективности и проектирования, а также bim (Building energy modeling) в программе IES”.
                         </p>
                         <p class="reviews__person">
                             Генеральный директор НТЦ «КБТУ»: Тимур Набиев<br>

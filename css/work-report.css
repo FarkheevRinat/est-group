@@ -22,6 +22,9 @@
     }
     @media (max-width: 768px) {
         .work-report__banner {
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
             padding: 50px 20px 50px 40px;
             justify-content: center;
             flex-direction: column;
@@ -38,47 +41,27 @@
         }
     }
 
-.work-report__title {
-    font-size: 30px;
-    line-height: 37px;
+.work-report__text {
+    font-size: 18px;
+    line-height: 22px;
     color: #FFFFFF;
-    margin-bottom: 20px;
 }
     @media (max-width: 1140px) {
-        .work-report__title {
-            display: inline;
+        .work-report__text {
             font-size: 14px;
             line-height: 17px;
-            margin-bottom: 0px;
         }
     }
     @media (max-width: 768px) {
-        .work-report__title {
+        .work-report__text {
             font-size: 12px;
             line-height: 14px;
         }
     }
 
-.work-report__title strong {
+.work-report__text strong {
     color: #00887A;
 }
-
-.work-report__text {
-    color: #FFFFFF;
-}
-    @media (max-width: 1140px) {
-        .work-report__text {
-            display: inline;
-            font-size: 14px;
-            line-height: 17px;
-        }
-    }
-    @media (max-width: 768px) {
-        .work-report__text {
-            font-size: 12px;
-            line-height: 15px;
-        }
-    }
 
 .work-report__img-box {
     position: relative;
@@ -101,7 +84,7 @@
     position: absolute;
     width: 100%;
     right: -42px;
-    bottom: -39px;
+    bottom: -50px;
 }
     @media (max-width: 1140px) {
         .work-report__img {

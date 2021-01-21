@@ -1,0 +1,116 @@
+.bim-promo {
+    padding-top: 230px;
+    padding-bottom: 120px;
+    margin-bottom: 120px;
+    background-image: url('../assets/img/bm-promo-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    @media (max-width: 1140px) {
+        .bim-promo {
+            padding-top: 196px;
+            padding-bottom: 100px;
+            margin-bottom: 100px;
+        }
+
+        .bim-promo .learn-more__content {
+            display: none;
+        }
+    }
+
+.bim-promo__container {
+    display: flex;
+    align-items: center;
+}
+
+.bim-promo__content {
+    width: 100%;
+}
+
+.bim-promo__title {
+    max-width: 560px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 39px;
+    margin-bottom: 30px;
+}
+    @media (max-width: 1140px) {
+        .bim-promo__title {
+            max-width: 625px;
+            font-size: 26px;
+            line-height: 32px;
+            margin-bottom: 40px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bim-promo__title {
+            max-width: 280px;
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 28px;
+        }
+    }
+
+.bim-promo__subtitle {
+    max-width: 600px;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+    @media (max-width: 1140px) {
+        .bim-promo__subtitle {
+            max-width: 600px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-bottom: 40px;
+        }
+        .bim-promo__subtitle strong {
+            font-weight: 400;
+        }
+    }
+    @media (max-width: 768px) {
+        .bim-promo__subtitle {
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 28px;
+        }
+    }
+
+.bim-promo__subtitle:last-of-type {
+    margin-bottom: 65px;
+}
+    @media (max-width: 1140px) {
+        .bim-promo__subtitle:last-of-type {
+            margin-bottom: 40px;
+        }
+    }
+    @media (max-width: 768px) {
+        .bim-promo__subtitle:last-of-type {
+            margin-bottom: 30px;
+        }
+    }
+
+.bim-promo__button:link,
+.bim-promo__button:visited,
+.bim-promo__button {
+    justify-content: center;
+    padding: 24px;
+    max-width: 260px;
+}
+    @media (max-width: 1140px) {
+        .bim-promo__button:link,
+        .bim-promo__button:visited,
+        .bim-promo__button {
+            padding: 20px;
+            max-width: 230px;
+        }
+    }   
+    @media (max-width: 768px) {
+        .bim-promo__button:link,
+        .bim-promo__button:visited,
+        .bim-promo__button {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }   

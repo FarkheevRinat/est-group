@@ -25,7 +25,7 @@
 @import './lb-team.css';
 @import './lb-advantages.css';
 
-
+@import './bim-promo.css';
 @import './bem-promo.css';
 
 @import './work-report.css';
@@ -33,3 +33,4 @@
 @import './projects.css';
 @import './contact-form.css';
 @import './bulleted-list.css';
+@import './info.css';
