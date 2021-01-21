@@ -27,6 +27,7 @@
 
 @import './bim-promo.css';
 @import './bem-promo.css';
+@import './cdf-promo.css';
 
 @import './work-report.css';
 @import './advantages-cards.css';
@@ -35,3 +36,4 @@
 @import './bulleted-list.css';
 @import './info.css';
 @import './benefits.css';
+@import './promo-video.css';

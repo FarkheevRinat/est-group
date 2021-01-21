@@ -157,6 +157,28 @@
         }
     }
 
+.advantages-cards__step {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 18px;
+    color: #00887A;
+}
+    @media (max-width: 1140px) {
+        .advantages-cards__step {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+    }
+    @media (max-width: 768px) {
+        .advantages-cards__step {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
 @media (max-width: 1140px) {
     .advantages-cards__text {
         font-size: 14px;
