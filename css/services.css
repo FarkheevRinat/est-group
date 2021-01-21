@@ -62,7 +62,6 @@
     @media (max-width: 1140px) {
         .services__item {
             flex-grow: 0;
-            height: 105px;
             width: 47.75%;
             margin-right: 0;
             margin-left: 0;
@@ -84,6 +83,7 @@
 }
     @media (max-width: 1140px) {
         .services__link {
+            height: 105px;
             padding: 20px 30px 24px 30px;
         }
     }
