@@ -2,14 +2,12 @@
     padding-top: 260px;
     margin-bottom: 120px;
 }
-
     @media (max-width: 1140px) {
         .promo {
             padding-top: 213px;
             margin-bottom: 100px;
         }
     }
-
     @media (max-width: 768px) {
         .promo {
             padding-top: 140px;
@@ -19,7 +17,6 @@
 .promo__title {
     margin-bottom: 30px;
 }
-
     @media (max-width: 768px) {
         .promo__title {
             margin-bottom: 28px;
@@ -33,7 +30,6 @@
     max-width: 610px;
     margin-bottom: 30px;
 }
-
     @media (max-width: 1140px) {
         .promo__subtitle {
             font-size: 16px;
@@ -41,7 +37,6 @@
             max-width: 350px;
         }
     }
-
     @media (max-width: 768px) {
         .promo__subtitle {
             font-size: 12px;
@@ -55,7 +50,6 @@
     display: flex;
     margin-bottom: 30px;
 }
-
     @media (max-width: 768px) {
         .promo-list {
             flex-direction: column;
@@ -66,7 +60,6 @@
     width: 100%;
     max-width: 235px;
 }
-
     @media (max-width: 1140px) {
         .promo-list__item {
             max-width: 160px;
@@ -76,13 +69,11 @@
 .promo-list__item:not(:last-child) {
     margin-right: 72px;
 }
-
     @media (max-width: 1140px) {
         .promo-list__item:not(:last-child) {
             margin-right: 20px;
         }
     }
-
     @media (max-width: 768px) {
         .promo-list__item:not(:last-child) {
             margin-right: 0;
@@ -97,7 +88,6 @@
     color: var(--color-accent);
     margin-bottom: 17px;
 }
-
     @media (max-width: 1140px) {
         .promo-list__title {
             font-size: 22px;
@@ -105,7 +95,6 @@
             margin-bottom: 11px;
         }
     }
-
     @media (max-width: 768px) {
         .promo-list__title {
             font-size: 14px;
@@ -118,14 +107,12 @@
     line-height: 22px;
     letter-spacing: .005em;
 }
-
     @media (max-width: 1140px) {
         .promo-list__text {
             font-size: 14px;
             line-height: 17px;
         }
     }
-
     @media (max-width: 768px) {
         .promo-list__text {
             font-size: 12px;
@@ -136,13 +123,11 @@
 .promo__button {
     padding: 24px 66px;
 }
-
     @media (max-width: 1140px) {
         .promo__button {
             padding: 20px 66px;
         }
     }
-
     @media (max-width: 768px) {
         .promo__button {
             padding: 18px 57px;

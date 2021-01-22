@@ -1,13 +1,11 @@
 .services {
     margin-bottom: 120px;
 }
-
     @media (max-width: 1140px) {
         .services {
             margin-bottom: 80px;
         }
     }
-
     @media (max-width: 768px) {
         .services {
             margin-bottom: 75px;
@@ -18,14 +16,12 @@
     margin-bottom: 60px;
     line-height: 1;
 }
-
     @media (max-width: 1140px) {
         .services__title {
             margin-bottom: 50px;
             margin-left: 60px;
         }
     }
-
     @media (max-width: 768px) {
         .services__title {
             margin-left: 0;
@@ -36,7 +32,6 @@
     display: flex;
     justify-content: space-between;
 }
-
     @media (max-width: 1140px) {
         .services__list {
             flex-wrap: wrap;
@@ -44,7 +39,6 @@
             margin: 0 auto;
         }
     }
-
     @media (max-width: 768px) {
         .services__list {
             width: 69.65%;
@@ -58,7 +52,6 @@
     background-color: var(--color-light);
     box-shadow: 0px 20px 50px rgba(0, 80, 71, 0.1);
 }
-
     @media (max-width: 1140px) {
         .services__item {
             flex-grow: 0;

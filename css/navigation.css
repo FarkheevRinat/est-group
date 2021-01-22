@@ -12,7 +12,6 @@
 .nav__item:not(:last-child) {
     margin-right: 25px;
 }
-
     @media (max-width: 1140px) {
         .nav__item:not(:last-child) {
             margin-right: 9px;
@@ -23,7 +22,6 @@
     padding: 5px 10px;
     letter-spacing: .005em;
 }
-
     @media (max-width: 1140px) {
         .nav__link {
             padding: 5px 5px;

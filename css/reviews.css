@@ -6,14 +6,12 @@
     z-index: 0;
     margin-bottom: 62px;
 }
-
     @media (max-width: 1140px) {
         .reviews {
             padding-top: 50px;
             padding-bottom: 50px;
         }
     }
-
     @media (max-width: 768px) {
         .reviews {
             padding-bottom: 85px;
@@ -37,7 +35,6 @@
     background-position: left;
     z-index: -1;
 }
-
     @media (max-width: 768px) {
         .reviews:before {
             display: none;
@@ -47,14 +44,12 @@
 .reviews__container {
     padding-left: 175px;
 }
-
     @media (max-width: 1140px) {
         .reviews__container {
             padding-left: 0;
             max-width: 560px;
         }
     }
-
     @media (max-width: 768px) {
         .reviews__container {
             padding-left: 15px;
@@ -66,13 +61,11 @@
 .reviews__title {
     margin-bottom: 37px;
 }
-
     @media (max-width: 1140px) {
         .reviews__title {
             margin-bottom: 25px;
         }
     }
-
     @media (max-width: 768px) {
         .reviews__title {
             margin-left: 15px;
@@ -86,7 +79,6 @@
 .reviews__item {
     display: flex;
 }
-
     @media (max-width: 768px) {
         .reviews__item {
             flex-direction: column;
@@ -102,7 +94,6 @@
     margin-right: 73px;
     filter: drop-shadow(0px 25px 50px rgba(1, 46, 41, 0.15));
 }
-
     @media (max-width: 1140px) {
         .reviews__img-box {
             width: 162px;
@@ -110,7 +101,6 @@
             margin-right: 78px;
         }
     }
-
     @media (max-width: 768px) {
         .reviews__img-box {
             position: relative;
@@ -138,7 +128,6 @@
     background-position: top left;
     z-index: -1;
 }
-
     @media (max-width: 768px) {
         .reviews__img-box:before {
             display: block;
@@ -155,14 +144,12 @@
     padding-top: 52px;
     max-width: 500px;
 }
-
     @media (max-width: 1140px) {
         .reviews__content {
             padding-top: 0;
             max-width: 330px;
         }
     }
-
     @media (max-width: 768px) {
         .reviews__content {
             max-width: 100%;
@@ -173,7 +160,6 @@
     color: var(--color-text-light);
     margin-bottom: 40px;
 }
-
     @media (max-width: 1140px) {
         .reviews__text {
             margin-bottom: 14px;
@@ -181,7 +167,6 @@
             line-height: 15px;
         }
     }
-
     @media (max-width: 768px) {
         .reviews__text {
             margin-bottom: 11px;
@@ -192,14 +177,12 @@
     color:var(--color-accent);
     font-weight: 700;
 }
-
     @media (max-width: 1140px) {
         .reviews__person {
             font-size: 12px;
             line-height: 15px;
         }
     }
-
     @media (max-width: 768px) {
         .reviews__person {
             max-width: 100%;
@@ -216,7 +199,6 @@
     color:var(--color-accent);
     font-weight: 700;
 }
-
     @media (max-width: 1140px) {
         .reviews__counter {
             position: absolute;
@@ -226,7 +208,6 @@
             line-height: 19.6px;
         }
     }
-
     @media (max-width: 768px) {
         .reviews__counter {
             left: 50%;
@@ -242,7 +223,6 @@
     font-weight: 700;
     color: var(--color-text-light);
 }
-
     @media (max-width: 1140px) {
         .reviews__current-counter {
             font-size: 18px;
@@ -256,7 +236,6 @@
     color:var(--color-accent);
     font-weight: 700;
 }
-
     @media (max-width: 1140px) {
         .reviews__total-counter {
             font-size: 16px;
@@ -270,7 +249,6 @@
     bottom: 15px;
     font-size: 0;
 }
-
     @media (max-width: 1140px) {
         .reviews__controls {
             position: absolute;
@@ -278,7 +256,6 @@
             bottom: -2px;
         }
     }
-
     @media (max-width: 768px) {
         .reviews__controls {
             display: flex;
@@ -300,7 +277,6 @@
 .reviews__button--prev {
         margin-right: 38px;
 }
-
     @media (max-width: 1140px) {
         .reviews__button--prev {
             margin-right: 14px;
@@ -327,7 +303,6 @@
 .reviews__button--next:before {
     background-image: url('../assets/img/arrow-next-icon.svg') 
 }
-
     @media (max-width: 1140px) {
         .reviews__button {
             width: 24px;
@@ -347,7 +322,6 @@
             background-image: url('../assets/img/arrow-next-icon-tablet.svg') 
         }
     }
-
     @media (max-width: 768px) {
         .reviews__button {
             width: 12px;

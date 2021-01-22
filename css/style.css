@@ -28,6 +28,8 @@
 @import './bim-promo.css';
 @import './bem-promo.css';
 @import './cdf-promo.css';
+@import './services-promo.css';
+@import './object-promo.css';
 
 @import './work-report.css';
 @import './advantages-cards.css';
@@ -37,3 +39,8 @@
 @import './info.css';
 @import './benefits.css';
 @import './promo-video.css';
+@import './math-modeling.css';
+@import './about-service.css';
+@import './button-back.css';
+@import './object-info.css';
+@import './modeling-types.css';

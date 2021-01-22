@@ -5,13 +5,11 @@
 .experience__title {
     margin-bottom: 70px;
 }
-
     @media (max-width: 1140px) {
         .experience__title {
             margin-bottom: 58px;
         }
     }
-
     @media (max-width: 768px) {
         .experience__title {
             max-width: 180px;
@@ -25,14 +23,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
     @media (max-width: 1140px) {
         .experience__list {
             margin: 0 auto;
             width: 92.2%;
         }
     }
-
     @media (max-width: 768px) {
         .experience__list {
             width: 69.65%;
@@ -47,7 +43,6 @@
     background: var(--color-light);
     box-shadow: 0px 20px 40px rgba(0, 80, 71, 0.1);
 }
-
     @media (max-width: 1140px) {
         .experience__item {
             padding: 36px 16px 110px 31px;
@@ -56,7 +51,6 @@
             margin-bottom: 30px;
         }
     }
-
     @media (max-width: 768px) {
         .experience__item {
             width: 100%;
@@ -67,7 +61,6 @@
 .experience__item:nth-child(2) {
     margin-right: 35%;
 }
-
     @media (max-width: 768px) {
         .experience__item:nth-child(2) {
             margin-right: 0;
@@ -78,7 +71,6 @@
     font-size: 16px;
     line-height: 19.7px;
 }
-
     @media (max-width: 1140px) {
         .experience__text {
             font-size: 12px;
@@ -91,7 +83,6 @@
     bottom: 0;
     left: 0;
 }
-
     @media (max-width: 1140px) {
         .experience__img-box {
             width: 96.3%;
@@ -104,19 +95,16 @@
     bottom: 33px;
     transform: translateX(-50%);
 }
-
     @media (max-width: 1140px) {
         .experience__img-box--center {
             bottom: 20px;
         }
     }
-
     @media (max-width: 1140px) {
         .experience__img-box--center .experience__img {
             margin: 0 auto;
         }
     }
-
     @media (max-width: 1140px) {
         .experience__img-box .experience__img {
             max-width: 100%;
@@ -126,7 +114,6 @@
 .experience__img {
     display: flex;
 }
-
     @media (max-width: 1140px) {
         .experience__img {
             max-height: 92px;

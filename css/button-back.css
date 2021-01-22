@@ -1,0 +1,14 @@
+.button-back {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+    @media (max-width: 1140px) {
+        .button-back {
+            margin-bottom: 100px;
+        }
+    }
+
+.button-back .button {
+    display: inline-flex;
+}

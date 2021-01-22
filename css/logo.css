@@ -6,7 +6,6 @@
     height: auto;
     margin-right: auto;
 }
-
     @media (max-width: 1140px) {
         .logo {
             width: 90px;

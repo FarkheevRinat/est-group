@@ -8,7 +8,6 @@
     background-position: center;
     margin-bottom: 120px;
 }
-
     @media (max-width: 1140px) {
         .lb-promo {
             padding-top: 196px;
@@ -16,7 +15,6 @@
             margin-bottom: 50px;
         }
     }
-
     @media (max-width: 768px) {
         .lb-promo {
             padding-top: 152px;
@@ -36,7 +34,6 @@
     max-width: 675px;
     margin-bottom: 40px;
 }
-
     @media (max-width: 1140px) {
         .lb-promo .page-title {
             font-size: 26px;
@@ -45,7 +42,6 @@
             margin-bottom: 30px;
         }
     }
-
     @media (max-width: 768px) {
         .lb-promo .page-title {
             font-size: 16px;
@@ -62,14 +58,12 @@
     justify-content: space-between; 
     align-items: flex-end;
 }
-
     @media (max-width: 1140px) {
         .lb-promo__content {
             flex-direction: column;
             align-items: flex-start;
         }
     }
-
     @media (max-width: 768px) {
         .lb-promo__content {
             align-items: center;
@@ -79,7 +73,6 @@
 .lb-promo__left {
     margin-right: 50px;
 }
-
     @media (max-width: 1140px) {
         .lb-promo__left {
             margin-right: 0;
@@ -92,7 +85,6 @@
     max-width: 450px;
     margin-bottom: -5px;
 }
-
     @media (max-width: 1140px) {
         .lb-promo__subtitle {
             font-size: 16px;
@@ -101,7 +93,6 @@
             margin-bottom: 30px;
         }
     }
-
     @media (max-width: 768px) {
         .lb-promo__subtitle {
             font-size: 12px;
@@ -125,7 +116,6 @@
     background: #FFFFFF;
     box-shadow: 0px 25px 50px rgba(3, 88, 69, 0.1);
 }
-
     @media (max-width: 1140px) {
         .lb-promo__right {
             order: -1;
@@ -134,7 +124,6 @@
             margin-bottom: 30px;
         }
     }
-
     @media (max-width: 768px) {
         .lb-promo__right {
             max-width: 290px;
@@ -146,7 +135,6 @@
 .lb-promo__list {
     display: flex;
 }
-
     @media (max-width: 768px) {
         .lb-promo__list {
             flex-direction: column;
@@ -156,7 +144,6 @@
 .lb-promo__item:not(:last-child) {
     margin-right: 30px;
 }
-
     @media (max-width: 768px) {
         .lb-promo__item:not(:last-child) {
             margin-right: 0;
@@ -170,7 +157,6 @@
     font-weight: 900;
     color: var(--color-accent);
 }
-
     @media (max-width: 1140px) {
         .lb-promo__header {
             font-size: 18px;
@@ -178,7 +164,6 @@
             margin-bottom: 3px;
         }
     }
-
     @media (max-width: 768px) {
         .lb-promo__header {
             font-size: 16px;
@@ -193,14 +178,12 @@
     line-height: 0;
     transform: translateY(-10px);
 }
-
     @media (max-width: 768px) {
         .lb-promo__header sup {
             font-size: 10px;
             transform: translateY(-6px);
         }
     }
-
     @media (max-width: 1140px) {
         .lb-promo__text {
             font-size: 14px;
@@ -211,7 +194,6 @@
             font-weight: 400;
         }
     }
-
     @media (max-width: 768px) {
         .lb-promo__text {
             font-size: 12px;
@@ -225,7 +207,6 @@
     margin-left: auto;
     flex: none;
 }
-
     @media (max-width: 1140px) {
         .lb-promo__img-box {
             min-width: 100px;
@@ -239,13 +220,11 @@
     width: 100%;
     height: auto;
 }
-
     @media (max-width: 1140px) {
         .lb-promo__img {
             bottom: -24px;
         }
     }
-
     @media (max-width: 768px) {
         .lb-promo__img {
             bottom: -9px;
