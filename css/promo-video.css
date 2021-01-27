@@ -47,6 +47,7 @@
     box-shadow: 0px 0px 30px #00887A;
     border-radius: 50%;
     z-index: 99;
+    transition: opacity .2s;
 }
     @media (max-width: 1140px) {
         .promo-video__button-play {
@@ -54,6 +55,14 @@
             height: 18.55px;
         }
     }
+
+.promo-video__button-play:hover {
+    opacity: 0.8;
+}
+
+.promo-video__button-play:active {
+    opacity: 0.95;
+}
 
 .promo-video__button-play:before {
     content: '';

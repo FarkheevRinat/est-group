@@ -12,6 +12,7 @@
     box-shadow: 0px 20px 50px rgba(0, 80, 71, 0.2);
     filter: drop-shadow(0px 20px 50px rgba(0, 80, 71, 0.2));
     padding: 24px 85px;
+    transition: all .2s;
 }
     @media (max-width: 1140px) {
         .button,
@@ -31,6 +32,16 @@
             padding: 15px 43px;
         }
     }
+
+.button:hover {
+    opacity: 0.9;
+    box-shadow: 0px 10px 30px rgba(0, 80, 71, 0.35);
+}
+
+.button:active {
+    opacity: 0.95;
+    box-shadow: 0px 10px 30px rgba(0, 80, 71, 0.15);
+}
 
 .button__icon {
     height: 19px;

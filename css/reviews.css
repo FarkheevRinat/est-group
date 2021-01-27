@@ -272,6 +272,15 @@
     position: relative;
     width: 31px;
     height: 16px;
+    transition: all .2s;
+}
+
+.reviews__button:hover {
+    transform: scale(1.15);
+}
+
+.reviews__button:active {
+    transform: scale(1.1);
 }
 
 .reviews__button--prev {
