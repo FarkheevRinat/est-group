@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EST Group | Страница объекта</title>
+    <title>EST Group | Контакты</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -47,48 +47,49 @@
         </div>
     </header>
 
-    <section class="object-promo">
-        <div class="container">
-            <h1 class="object-promo__title">Grand Tower комплекса МОСКВА СИТИ</h1>
-        </div>
-    </section>
-
-    <section class="object-info">
-        <div class="container">
-            <div class="object-info__content">
-                <div class="object-info__left">
-                    <p class="object-info__text"><strong>Объект:</strong> Grand Tower комплекса МОСКВА-СИТИ </p>
-                    <p class="object-info__text"><strong>Адрес:</strong> г. Москва</p>
-                    <p class="object-info__text"><strong>Площадь:</strong> 400 000 м2</p>
-                    <p class="object-info__text"><strong>Система и уровень сертификата:</strong> LEED GOLD</p>
-                </div>
-                <div class="object-info__right">
-                    <ul class="object-info__list">
-                        <li class="object-info__item">
-                            <img src="./assets/img/object-info-01.jpg" alt="image" class="object-info__img">
-                        </li>
-                    </ul>
-                    <div class="object-info__controls">
-                        <button class="object-info__button object-info__button--prev">
-                            <svg class="arrow-button__icon arrow-button object-info__icon">
-                                <use xlink:href="assets/img/sprite.svg#object-info-arrow-icon">
-                            </svg>
-                        </button>
-                        <button class="object-info__button object-info__button--next">
-                            <svg class="arrow-button__icon arrow-button object-info__icon">
-                                <use xlink:href="assets/img/sprite.svg#object-info-arrow-icon">
-                            </svg>
-                        </button>
-                    </div>
-                    <a href="#" class="object-info__link">Кейс в PDF</a>
-                </div>
+    <section class="contacts-promo">
+        <div class="container contacts-promo__container">
+            <h1 class="contacts-promo__title">Контакты</h1>
+            <div class="learn-more__content learn-more__content--sm">
+                <img src="./assets/img/learn-more.png" alt="image" class="learn-more__img">
+                <p class="learn-more__text">
+                    <strong>Узнать больше</strong> 
+                    о нашей компании —  правильное решение
+                </p>
+                <p class="learn-more__filename">Презентация (PDF 75,1 мб)</p>
+                <button class="button">
+                    <span>Скачать</span>
+                    <svg class="button__icon">
+                        <use xlink:href="assets/img/sprite.svg#download-icon">
+                    </svg>
+                </button>
             </div>
         </div>
     </section>
 
-    <div class="button-back">
-        <a href="#" class="button">Вернуться к объектам</a>
-    </div>
+    <section class="contacts-content">
+        <div class="container contacts-content__container">
+            <div class="contacts-content__map">
+                <img src="./assets/img/contacts-content-map.jpg" alt="map" class="contacts-content__img">
+            </div>
+            <ul class="contacts-content__list">
+                <li class="contacts-content__item">
+                    <strong class="contacts-content__name">Адрес:</strong>
+                    <p class="contacts-content__text">Россия, 196084, Санкт-Петербург,<br> ул. Малая Митрофаньевская, д.4.</p>
+                </li>
+                <li class="contacts-content__item">
+                    <strong class="contacts-content__name">Тел.:</strong>
+                    <a href="+79217706606" class="contacts-content__link">+7 (921) 770-66-06</a>
+                    <a href="+77770006606" class="contacts-content__link">+7 (777) 000-66-06</a>
+                </li>
+                <li class="contacts-content__item">
+                    <strong class="contacts-content__name">E-mail:</strong>
+                    <a href="mailto:info@est-group.pro" class="contacts-content__link">info@est-group.pro</a>
+                    <a href="#" class="contacts-content__link contacts-content__link--bordered">Написать письмо</a>
+                </li>
+            </ul>
+        </div>
+    </section>
 
     <section class="contact-form">
         <div class="container">

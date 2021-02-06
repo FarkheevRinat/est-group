@@ -1,0 +1,99 @@
+.contacts-promo {
+    position: relative;
+    padding-top: 240px;
+    padding-bottom: 180px;
+    margin-bottom: 120px;
+    overflow: hidden;
+    background-image: url('../assets/img/contacts-promo-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+    @media (max-width: 1140px) {
+        .contacts-promo {
+            padding-top: 203px;
+            padding-bottom: 106px;
+            margin-bottom: 100px;
+        }
+    }
+    @media (max-width: 768px) {
+        .contacts-promo {
+            padding-top: 215px;
+            padding-bottom: 30px;
+        }
+    }
+
+.contacts-promo__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    @media (max-width: 768px) {
+        .contacts-promo__container {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .contacts-promo__container .learn-more__content--sm {
+            margin-right: auto;
+        }
+    }
+    
+
+.contacts-promo__title {
+    position: relative;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 51px;
+    color: #FFFFFF;
+    padding: 25px 160px 25px 0;
+}
+    @media (max-width: 1140px) {
+        .contacts-promo__title {
+            padding: 17px 120px 17px 0;
+            font-size: 30px;
+            line-height: 37px;
+        }
+    }
+    @media (max-width: 768px) {
+        .contacts-promo__title {
+            padding: 20px 0;
+            font-size: 30px;
+            line-height: 37px;
+            margin-bottom: 30px;
+        }
+    }
+
+.contacts-promo__title:before {
+    content: '';
+    display: block;
+    width: 30000px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #00887A;
+    box-shadow: 0px 25px 40px rgba(0, 80, 71, 0.1);
+    z-index: -1;
+}
+
+.contacts-promo__title:after {
+    content: '';
+    display: none;
+    width: 30000px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #00887A;
+    box-shadow: 0px 25px 40px rgba(0, 80, 71, 0.1);
+    z-index: -1;
+}
+    @media (max-width: 768px) {
+        .contacts-promo__title:after {
+            display: block;
+        }
+    }

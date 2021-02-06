@@ -30,6 +30,7 @@
 @import './cdf-promo.css';
 @import './services-promo.css';
 @import './object-promo.css';
+@import './contacts-promo.css';
 
 @import './work-report.css';
 @import './advantages-cards.css';
@@ -44,3 +45,4 @@
 @import './button-back.css';
 @import './object-info.css';
 @import './modeling-types.css';
+@import './contacts-content.css';
